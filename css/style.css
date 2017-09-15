@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  width: 100%;
+}
+header {
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.fa-vk {
+  color: #0000e6;
+}
+
+.fa-facebook-square {
+  color: #000066
+}
+
+.fa-google {
+  color: green;
+}
+
+.logo {
+  width: 200px;
+}
+
+.logo-img {
+  width: 72px;
+  float: left;
+}
+
+.logo-title {
+  color: #1a0000;
+  float: right;
+  margin-top: 20px;
+}
+
+.menu {
+  float: right;
+  width: 800px;
+}
+
+.menu-title {
+  float: left;
+}
+
+.menu-soc {
+  float: right;
+}
+
+.menu-stile {
+  font-size: 30px;
+  color: #ffffff;
+  padding: 0 20px 0 20px;
+}
+
+.fon-img {
+  width: 100%;
+  height: 700px;
+  background-image: url(../img/xiami.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+}
