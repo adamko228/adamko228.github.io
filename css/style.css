@@ -3,10 +3,15 @@
   padding: 0;
 }
 html, body {
+    background-color: #ff7733;
   width: 100%;
 }
+
+/*==========Header==========*/
+
 header {
   margin: 0 auto;
+  max-width: 1200px;
   background-color: #fff;
 }
 
@@ -17,46 +22,39 @@ a {
 
 .fa-vk {
   color: #0000e6;
+
 }
 
 .fa-facebook-square {
   color: #000066
 }
 
-.fa-google {
-  color: green;
-}
-
 .logo {
-  width: 200px;
+  width: 230px;
 }
 
 .logo-img {
-  width: 72px;
+  width: 118px;
   float: left;
-}
-
-.logo-title {
-  color: #1a0000;
-  float: right;
-  margin-top: 20px;
 }
 
 .menu {
   float: right;
-  width: 800px;
+  width: 1000px;
 }
 
 .menu-title {
   float: left;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .menu-soc {
   float: right;
+  font-size: 30px;
 }
 
 .menu-stile {
-  font-size: 30px;
+  font-size: 35px;
   color: #ffffff;
   padding: 0 20px 0 20px;
 }
@@ -70,6 +68,56 @@ a {
   background-repeat: no-repeat;
 }
 
-h1 {
-  text-align: center;
+.google {
+  height: 27px;
+}
+
+/*=============Main================*/
+
+main {
+  margin: 0 auto;
+  background-color: #ffffff;
+  max-width: 1200px;
+  height: 700px;
+}
+
+.xiaomi-mi-note3 {
+  margin-top: 30px;
+  height: 300px;
+  float: left;
+}
+
+.main-content {
+  width: 600px;
+  height: 300px;
+  float: right;
+  background-color: #ffffff;
+}
+
+.xiaomi-mi-note3-text {
+  margin-top: 30px;
+  font-size: 30px;
+  color: #000000;
+}
+
+.iphone-x {
+  float: left;
+  width: 1200px;
+  margin-top: 60px;
+}
+
+.iphone-x-img {
+  height: 300px;
+  margin-left: 33px;
+}
+
+.iphone-x-text {
+  margin-top: 30px;
+  font-size: 30px;
+  color: #000000;
+
+}
+
+.iphon-x-text {
+  float: right;
 }
