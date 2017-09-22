@@ -11,8 +11,19 @@ html, body {
 
 header {
   margin: 0 auto;
-  max-width: 1200px;
-  background-color: #fff;
+  width: 100%;
+  height: 70px;
+  background-color: #663300;
+  display: block;
+  opacity: 10;
+}
+
+.header-nav {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #663300;
 }
 
 a {
@@ -120,4 +131,14 @@ main {
 
 .iphon-x-text {
   float: right;
+
+}
+
+.xiaomi {
+  width: 1200px;
+}
+
+h1 {
+  font-size: 40px;
+
 }
