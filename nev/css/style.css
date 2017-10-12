@@ -100,7 +100,7 @@ header {
 .menu {
   float: right;
   font-size: 20px;
-  margin-right: 300px;
+  margin-right: 250px;
   font-size: 30px;
 }
 
@@ -120,7 +120,17 @@ header {
   display: block;
 }
 
-.div {
+
+
+/*-----------main-----------*/
+
+main {
+  /*background-color: white;*/
+  margin: 0 auto;
+  width: 100%;
+}
+
+.box {
   height: 150px;
 }
 
@@ -135,15 +145,6 @@ header {
   width: 100%;
 }
 
-
-/*-----------main-----------*/
-
-main {
-  /*background-color: white;*/
-  margin: 0 auto;
-  width: 100%;
-}
-
 /*.main-box {
   width: 100%;
 }*/
@@ -151,6 +152,26 @@ main {
 .main-content {
   background-color: white;
   max-width: 1200px;
+  margin: 0 auto;
+  background-position: center;
+}
+
+img {
+  max-width: 1200px;
+}
+
+.content-title1 {
+  text-align: center;
+}
+
+.content-text1 {
+  margin-top: 20px;
+  text-align: justify;
+  font-family: 'Roboto Condensed';
+}
+
+.content-container {
+  width: 900px;
   margin: 0 auto;
 }
 
