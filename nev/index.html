@@ -2,11 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
     <title>Adamteg</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-  </head>
+    <link href="style.css" rel="stylesheet" media="screen and (orientation: portrait) and (min-width: 1080px), projection" />
+
+  </head/>
   <body>
     <header>
       <a href="index.html"><img class="logo" src="/img/2_Flat_logo_on_transparent_240x67.png" alt="#"></a>
@@ -15,14 +18,14 @@
             <button class="dropbtn">Новини</button>
               <div class="dropdown-content">
                 <img class="dropdawn-menu-img" src="img/Uct1EVuoiAPHWP2MhKJC3CXS4pOL6mDsL8h8.jpg" alt="">
-                <a class="dropdawn-menu-text" href="#">
+                <a class="dropdawn-menu-text" href="statti/samsungnev.html">
 В патентах Samsung знайшли смарт-гаманець, згинається смартфон і згортається телевізор</a>
                 <img class="dropdawn-menu-img" src="img/Uct1DOqiVqQtz2fQgjRBmbpXS4pu5kq7dUQ65.jpg" alt="">
                 <a class="dropdawn-menu-text" href="#">
 Xiaomi Mi Mix 2 розібрали і розглянули зсередини</a>
                 <img class="dropdawn-menu-img" src="img/Uct1ABKyNWuYz1AiTP96jmoYwRZmnyvQIFHK8.jpg" alt="">
                 <a class="dropdawn-menu-text" href="#">
-Ілон Маск на спір побудує найбільше енергохраніліще в світі</a>
+Ілон Маск на спір побудує найбільше енергосховище в світі</a>
               </div>
           </div>
           <div class="dropdown">
@@ -99,6 +102,12 @@ Xiaomi Mi Mix 2 розібрали і розглянули зсередини</a
           <a href="statti/google_pixel_2.html">Читати далі</a>
         </div>
       </section>
+      <div class="dropdown1">
+  <button onclick="myFunction()" class="dropbtn1">Dropdown</button>
+  <div id="myDropdown1" class="dropdown-content1">
+      <img class="header-logo-icon1" src="img/swastika.png">
+  </div>
+</div>
       <!-- <div class="main-box"></div> -->
     </main>
     <footer>
@@ -112,7 +121,30 @@ Xiaomi Mi Mix 2 розібрали і розглянули зсередини</a
         function googleTranslateElementInit() {
         new google.translate.TranslateElement({pageLanguage: 'uk', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
         }
-        </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+        </script>
+        <script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown1").classList.toggle("show1");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn1')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content1");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show1')) {
+        openDropdown.classList.remove('show1');
+      }
+    }
+  }
+}
+</script>
       <p class="footer-text">Крегель Адам © 2017</p>
     </footer>
   </body>
