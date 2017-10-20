@@ -257,7 +257,7 @@ footer {
 }
 
 
-@keyframes logo-icon {
+@keyframes header-logo-icon {
   from {}
   to {transform: rotateZ(360deg);}
 }
