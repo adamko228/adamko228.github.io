@@ -99,7 +99,6 @@ header {
 
 .menu {
   float: right;
-  font-size: 20px;
   margin-right: 250px;
   font-size: 30px;
 }
@@ -262,10 +261,12 @@ footer {
   to {transform: rotateZ(360deg);}
 }
 
-@media screen and (max-width: 1080px) {
-  * {max-width: 1080px;
+@media screen and (max-width: 414px) {
+  * {max-width: 414px;
   margin: 0;}
   main { width: 100%;}
   .menu {margin-right: 0;}
-  .main-img {width: 500px;}
+  .dropbtn {font-size: 10px; padding: 4px 8px;}
+  header {height: 40px;}
+  .main-img {width: 207px; height: 180px;}
 }
