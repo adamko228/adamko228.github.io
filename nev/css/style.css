@@ -268,5 +268,6 @@ footer {
   .menu {margin-right: 0;}
   .dropbtn {font-size: 10px; padding: 4px 8px;}
   header {height: 40px;}
+  .logo {height: 40px; width: 100px}
   .main-img {width: 207px; height: 180px;}
 }
