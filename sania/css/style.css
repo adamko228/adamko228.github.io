@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/hmarunka.png);
+  background-size: 170%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: -45%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 55%;
+    width: 0%;
+  }
+}
+
+div {
+  margin-top: 200px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/tank.png);
+  background-repeat: no-repeat;
+  animation-duration: 3s;
+  animation-name: slidein;
+  /*animation-iteration-count: infinite;*/
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  position: fixed;
+}
+
+.sania-vodka {
+  margin-top: 200px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/tank2.png);
+  background-repeat: no-repeat;
+  animation-duration: 14s;
+  animation-name: slidein;
+  /*animation-iteration-count: infinite;*/
+  animation-direction: reverse;
+  position: fixed;
+}
