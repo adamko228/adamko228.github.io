@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/hmarunka.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.sania {
+  margin-top: 30%;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/sania.png);
+  background-repeat: no-repeat;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  position: fixed;
+}
+
+.sania-vodka {
+  margin-top: 30%;
+  margin-left: 50%;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/sania2.png);
+  background-repeat: no-repeat;
+  position: fixed;
+}
